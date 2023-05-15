@@ -4,4 +4,4 @@
 Esta página web é uma cópia visual da página principal de uma das versões do site da Netflix. Ela possui todos os elementos típicos do mesmo, como os botões, campos de entrada de dados, imagens, links, textos e um acordeão de perguntas e respostas. Trata-se de uma página responsiva, que pode se adequar a telas de dispositivos menores. O CSS flex box, media query, JavaScript e o DOM foram utilizados para o seu desenvolvimento. Numa escala percentual de avaliação própria, acredito que ela tenha ficado 90% parecida com a original.
 </p>
 
-<a href="https://mayconfra.github.io/clone-home-page-site-netflix/">Demonstração</a>
+<a href="https://mayconfranca.github.io/clone-home-page-site-netflix/">Demonstração</a>
