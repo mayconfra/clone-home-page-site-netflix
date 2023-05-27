@@ -141,7 +141,7 @@ input {
 
 @media(max-width: 720px) {
     input {
-        width: 400px;
+        width: 319px;
         height: 46px;
     }
 }
