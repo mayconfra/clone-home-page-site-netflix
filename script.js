@@ -1,3 +1,5 @@
+/*JavaScript e DOM*/
+
 /*Respostas da área de perguntas frequentes.*/
 
 let cont = 0;
