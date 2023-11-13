@@ -1,4 +1,4 @@
-/*JavaScript e DOM*/
+/*JavaScript/DOM*/
 
 /*Respostas da área de perguntas frequentes.*/
 
