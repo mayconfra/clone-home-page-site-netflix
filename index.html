@@ -13,78 +13,101 @@
 <body>
     <section class="secao-um">
         <section class="secao-dois">
-            <!--Cabeçalho.-->
-            <header>
-                <img src="logomarca.png" class="logo">
-                <div class="cabecalho">
+            <section class="secao-tres">
+                <div class="logo">
+                    <img src="logomarca.png" class="logomarca" alt="Logomarca">
+                </div>
+                <div class="divisao">
                     <div>
                         <select class="texto">
                             <option>Português</option>
                         </select>
                     </div>
-                    <div class="div-botao"><button class="botao-um texto">Entrar</button></div>
+                    <div class="div-botao">
+                        <button class="botao-um texto">Entrar</button>
+                    </div>
                 </div>
-            </header>
+            </section>
             <!--//-->
             <article>
                 <div class="texto">
                     <h1>Filmes, séries e muito mais. Sem limites.</h1>
                     <p class="p-um">Assista onde quiser. Cancele quando quiser.</p>
-                    <p class="p-dois">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+                    <p class="p-dois">Quer assistir? Informe seu e-mail para criar ou reiniciar sua assinatura.</p>
                 </div>
                 <div class="div-in-btn">
-                    <div class="div-in"><input type="email" name="e-mail" placeholder="E-mail" class="texto"></div>
+                    <div class="div-in">
+                        <input type="email" name="e-mail" placeholder="E-mail" class="texto">
+                    </div>
                     <button class="botao-dois texto">Vamos lá ></button>
                 </div>
             </article>
         </section>
     </section>
+    <!--//-->
     <section class="cor-fundo">
         <section class="borda"></section>
-        <article class="espaco-um espaco-dois">
-            <div class="texto div-largura">
-                <h2>Aproveite na TV.</h2>
-                <p class="paragrafos">
-                    Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-                    aparelhos de Blu-ray e outros dispositivos.
-                </p>
-            </div>
-            <div class="div-largura"><img src="imagem-a.jpg" class="imagens"></div>
+        <article class="secoes-um">
+            <div class="secoes-dois">
+                <div class="texto divisoes">
+                    <h2>Aproveite na TV.</h2>
+                    <p class="paragrafos">
+                        Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, 
+                        aparelhos de Blu-ray e outros dispositivos.
+                    </p>
+                </div>
+                <div class="divisoes div-img">
+                    <img src="imagem-a.jpg" class="imagens">
+                </div>
+            </div>            
         </article>
         <section class="borda"></section>
-        <article class="espaco-um espaco-tres">
-            <div class="div-largura"><img src="imagem-b.jpg" class="imagens"></div>
-            <div class="texto div-largura">
-                <h2>Assista quando quiser.</h2>
-                <p class="paragrafos">
-                    Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.
-                </p>
-            </div>
+        <article class="secoes-um">
+            <div class="secoes-tres">
+                <div class="divisoes div-img">
+                    <img src="imagem-b.jpg" class="imagens">
+                </div>
+                <div class="texto divisoes">
+                    <h2>Assista quando quiser.</h2>
+                    <p class="paragrafos">
+                        Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.
+                    </p>
+                </div>
+            </div>            
         </article>
         <section class="borda"></section>
-        <article class="espaco-um espaco-dois">
-            <div class="texto div-largura">
-                <h2>Crie perfis para crianças.</h2>
-                <p class="paragrafos">
-                    Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas,
-                    sem pagar a mais por isso.
-                </p>
-            </div>
-            <div class="div-largura"><img src="imagem-c.png" class="imagens"></div>
+        <article class="secoes-um">
+            <div class="secoes-dois">
+                <div class="texto divisoes">
+                    <h2>Crie perfis para crianças.</h2>
+                    <p class="paragrafos">
+                        Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, 
+                        sem pagar a mais por isso.
+                    </p>
+                </div>
+                <div class="divisoes div-img">
+                    <img src="imagem-c.png" class="imagens">
+                </div>
+            </div>            
         </article>
         <section class="borda"></section>
-        <article class="espaco-um espaco-tres">
-            <div class="div-largura"><img src="imagem-d.jpg" class="imagem-d"></div>
-            <div class="texto div-largura">
-                <h2>Baixe séries para assistir offline.</h2>
-                <p class="paragrafos">
-                    Disponíveis somente em planos sem anúncios.
-                </p>
-            </div>
+        <article class="secoes-um">
+            <div class="secoes-tres">
+                <div class="divisoes div-img">
+                    <img src="imagem-d.jpg" class="imagens">
+                </div>
+                <div class="texto divisoes">
+                    <h2>Baixe séries para assistir offline.</h2>
+                    <p class="paragrafos">
+                        Disponíveis somente em planos sem anúncios.
+                    </p>
+                </div>
+            </div>            
         </article>
+        <!--//-->
         <section class="borda"></section>
         <!--Área das perguntas frequentes.-->
-        <section class="espaco-quatro texto">
+        <section class="espaco-um texto">
             <h3>Perguntas frequentes</h3>
             <article class="espacos">
                 <div class="questao" onclick="pergunta()">
@@ -137,16 +160,19 @@
             </article>
             <!--//-->
             <article>
-                <p class="p-tres">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+                <p class="p-tres">Quer assistir? Informe seu e-mail para criar ou reiniciar sua assinatura.</p>
                 <div class="div-in-btn div-espaco">
-                    <div class="div-in"><input type="email" name="e-mail" placeholder="E-mail" class="texto"></div>
+                    <div class="div-in">
+                        <input type="email" name="e-mail" placeholder="E-mail" class="texto">
+                    </div>
                     <button class="botao-dois texto">Vamos lá ></button>
                 </div>
             </article>
         </section>
+        <!--//-->
         <section class="borda"></section>
-        <section class="espaco-quatro tel texto">Dúvidas? Ligue <a href="">0800 591 8942</a></section>
-        <section class="espaco-quatro links texto">
+        <section class="espaco-um tel texto">Dúvidas? Ligue <a href="">0800 591 8942</a></section>
+        <section class="espaco-um links texto">
             <div>
                 <ul>
                     <li><a href="">Perguntas frequentes</a></li>
@@ -177,12 +203,13 @@
                 </ul>
             </div>
         </section>
-        <section class="espaco-quatro espacos">
+        <!--//-->
+        <section class="espaco-um espacos">
             <select class="texto">
                 <option>Português</option>
             </select>
         </section>
-        <section class="espaco-quatro">
+        <section class="espaco-um">
             <p class="rodape">Netflix Brasil</p>
         </section>
         <footer>Clone home page desenvolvido por Maycon França</footer>
