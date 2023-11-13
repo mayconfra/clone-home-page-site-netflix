@@ -6,7 +6,7 @@ body {
 
 /*Imagem de fundo.*/
 .secao-um {
-    height: 700px;
+    height: 750px;
     background-image: url(imagem-fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,23 +15,33 @@ body {
 
 /*Transparência sobre a imagem de fundo.*/
 .secao-dois {
-    height: 700px;
+    height: 750px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-header {
+@media(max-width: 720px) {
+    .secao-um, .secao-dois {
+        height: 570px;
+    }
+}
+
+.secao-tres {
     width: 80%;
-    margin: 0 auto 12%;
+    margin: 0 auto 12% auto;
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
-    max-width: 17.5%;
-    min-width: 115px;
+    width: 18%;
 }
 
-.cabecalho {
+.logomarca {
+    max-width: 100%;
+    min-width: 120px;
+}
+
+.divisao {
     width: 40%;
     display: flex;
     justify-content: flex-end;
@@ -176,19 +186,28 @@ input {
     border: solid 4px #232323;
 }
 
-.espaco-um {
+.secoes-um {
     width: 80%;
-    margin: 8% auto 8%;
+    margin: 8% auto 8% auto;
 }
 
-.espaco-dois {
+.secoes-dois {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.div-largura {
-    width: 500px;
+.secoes-tres {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.divisoes {
+    width: 480px;
+    margin: 5px;
 }
 
 h2 {
@@ -200,7 +219,6 @@ h2 {
 @media(max-width: 720px) {
     h2 {
         font-size: 33px;
-        text-align: center;
     }
 }
 
@@ -212,25 +230,27 @@ h2 {
 @media(max-width: 720px) {
     .paragrafos {
         font-size: 19px;
-        text-align: center;
     }
 }
 
 .imagens {
-    width: 355px;
+    width: 480px;
 }
 
-.imagem-d {
-    width: 355px;    
+@media(max-width: 1229px) {
+    h2, .paragrafos {
+        text-align: center;
+    }
 }
 
-.espaco-tres {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap-reverse;
+@media(max-width: 618px) {
+    .div-img, .imagens {
+        width: 350px;
+        margin: 0 auto;
+    }
 }
 
-.espaco-quatro {
+.espaco-um {
     width: 80%;
     margin: 0 auto;
 }
